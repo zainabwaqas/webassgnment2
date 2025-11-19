@@ -1,0 +1,21 @@
+/* instrumentcard.module.css */
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.cardTitle {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}

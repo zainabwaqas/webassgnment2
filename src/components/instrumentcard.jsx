@@ -1,9 +1,11 @@
-export default function InstrumentCard({ instrument }) {
+import React from "react";
+import styles from "./instrumentcard.module.css";
+
+export default function InstrumentCard({ title, image }) {
   return (
-    <div className="card p-4 rounded-xl">
-      <img src={instrument.img} alt={instrument.name} className="w-full h-48 object-cover rounded" />
-      <h3 className="text-lg font-semibold mt-3">{instrument.name}</h3>
-      <p className="text-sm">{instrument.desc}</p>
+    <div className={styles.card}>
+      <img src={image} alt={title} className={styles.cardImage} />
+      <h3 className={styles.cardTitle}>{title}</h3>
     </div>
   );
 }
