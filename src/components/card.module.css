@@ -1,0 +1,16 @@
+/* card.module.css */
+.card {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.cardTitle {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cardBody {
+  color: #555;
+}

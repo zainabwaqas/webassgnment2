@@ -1,9 +1,11 @@
-export default function Card({ title, desc, children, className = "" }) {
+import React from "react";
+import styles from "./card.module.css";
+
+export default function Card({ title, body }) {
   return (
-    <article className={`card ${className} p-6 rounded-xl`}>
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-sm">{desc}</p>
-      {children}
-    </article>
+    <div className={styles.card}>
+      <h2 className={styles.cardTitle}>{title}</h2>
+      <p className={styles.cardBody}>{body}</p>
+    </div>
   );
 }
