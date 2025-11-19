@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small CSS variables for accent and dark base to match your original aesthetic */
+:root {
+  --gg-accent: #ffdd57;
+}
+
+/* light-theme overrides (applied by ThemeToggle) */
+.light-theme {
+  --bg: #f7f7f9;
+  --text: #111827;
+  --card: #ffffff;
+}
+
+body {
+  @apply bg-gradient-to-br from-purple-700 to-blue-500 text-white min-h-screen;
+}
+
+/* when light theme class applied to body, override */
+body.light-theme {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* small utility for cards */
+.card {
+  @apply bg-white/10 p-5 rounded-xl shadow-md;
+}
+.light-theme .card {
+  background: var(--card);
+  color: var(--text);
+}

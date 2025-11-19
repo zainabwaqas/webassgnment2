@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "Groove Gali",
+    "tagline": "Bringing you the sound of Pakistan"
+  },
+  "homeCards": [
+    {"id": "c1","title":"Traditional Instruments","desc":"Discover the roots of desi music: sitar, tabla, rubab and more."},
+    {"id": "c2","title":"Local Bands","desc":"Meet the rising stars and legendary bands from across Pakistan."},
+    {"id": "c3","title":"Trending Now","desc":"Catch up with the latest hits and underground sounds."}
+  ],
+  "discover": {
+    "image": "/images/instruments.jpeg",
+    "title": "Discover More",
+    "desc": "Step into our world of beats, melodies and stories..."
+  },
+  "instruments": [
+    {"id":"i1","name":"Sitar","img":"/images/sitar.jpeg","desc":"The sitar is a plucked stringed instrument..."},
+    {"id":"i2","name":"Tabla","img":"/images/tabla.jpeg","desc":"The tabla consists of two drums..."},
+    {"id":"i3","name":"Rubab","img":"/images/rabab.jpeg","desc":"The rubab is a short-necked lute..."},
+    {"id":"i4","name":"Dhol","img":"/images/dhol.jpeg","desc":"The dhol is a double-sided barrel drum..."},
+    {"id":"i5","name":"Harmonium","img":"/images/harmonium.jpeg","desc":"A small hand-pumped keyboard instrument."}
+  ],
+  "singers": [
+    {"id":"s1","name":"Atif Aslam","img":"/images/atifaslam.jpg","desc":"Renowned Pakistani singer..."},
+    {"id":"s2","name":"Arijit Singh","img":"/images/arijitsingh.jpeg","desc":"Indian playback singer..."},
+    {"id":"s3","name":"Shreya Ghoshal","img":"/images/shreya.webp","desc":"Indian playback singer..."}
+  ],
+  "bands": [
+    {"id":"b1","name":"Takhleeq","img":"/images/takhleeq.png","desc":"Local band blending traditional and contemporary music"},
+    {"id":"b2","name":"Soch","img":"/images/soch.jpeg","desc":"Popular local band known for soulful music"},
+    {"id":"b3","name":"Jal","img":"/images/jal.jpg","desc":"Well-known local band with catchy tunes"}
+  ],
+  "trending": [
+    {"id":"t1","title":"Jhol - Maanu x Annural Khalid","img":"/images/artist1.jpg","badge":"No. 1 on Spotify","desc":"catchy fusion beat"},
+    {"id":"t2","title":"Maand - Bayaan x Hasan Raheem x Rovalio","img":"/images/artist2.jpeg","badge":"No. 2 on Spotify","desc":"popular music video"},
+    {"id":"t3","title":"Savera - Maanu x Turhan James","img":"/images/artist3.jpeg","badge":"No. 3 on Spotify","desc":"blend of folk & electronic"}
+  ],
+  "history": [
+    {"id":"h1","title":"Early Beginnings (1960s–1970s)","img":"/images/1960-band.webp","desc":"Rock in Pakistan started small..."},
+    {"id":"h2","title":"Rise of Pop-Rock (1980s)","img":"/images/rock-pop.jpg","desc":"Vital Signs and Dil Dil Pakistan..."},
+    {"id":"h3","title":"Sufi-Rock & Junoon (1990s)","img":"/images/junoon.jpg","desc":"Junoon fused rock with Sufi poetry..."}
+  ],
+  "events": [
+    {"id":"e1","title":"Coke Fest Karachi","date":"Nov 2025","desc":"Bayaan performing live"},
+    {"id":"e2","title":"Lahore Indie Night","date":"Dec 2025","desc":"Dulhay Mian, Young Stunners"},
+    {"id":"e3","title":"Islamabad Open Mic","date":"Jan 2026","desc":"Local rising stars"}
+  ],
+  "team": [
+    {"id":"tm1","name":"Muhammad Abdullah","img":"/images/team1.jpg","role":"Content Curator"},
+    {"id":"tm2","name":"Maheen Ahmad","img":"/images/team2.jpg","role":"Music Writer"},
+    {"id":"tm3","name":"Zainab Waqas","img":"/images/team3.jpg","role":"Designer"}
+  ]
+}
