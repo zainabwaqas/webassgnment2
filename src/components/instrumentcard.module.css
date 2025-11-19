@@ -1,21 +1,24 @@
 /* instrumentcard.module.css */
 .card {
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  background-color: #f9f9f9;
-  text-align: center;
-  margin: 0.5rem;
+  padding: 1rem; /* p-4 */
+  border-radius: 1rem; /* rounded-xl */
+  background-color: #fff;
 }
 
 .cardImage {
-  width: 100%;
-  height: auto;
-  border-radius: 0.25rem;
+  width: 100%; /* w-full */
+  height: 12rem; /* h-48 */
+  object-fit: cover;
+  border-radius: 0.5rem; /* rounded */
 }
 
-.cardTitle {
-  font-weight: bold;
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
+.cardName {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  margin-top: 0.75rem; /* mt-3 */
+}
+
+.cardDesc {
+  font-size: 0.875rem; /* text-sm */
+  color: #555;
 }
